@@ -126,4 +126,4 @@ personal/
 - **Ownership Verification**: Backend checks `req.user.id` against resource owner IDs for all Update/Delete operations.
 - **Responsive Design**: Fully optimized for Desktop, Tablet, and Mobile views.
 
-Developed with ❤️ by Antigravity
+Developed with ❤️ by Dileep Rajoriya
