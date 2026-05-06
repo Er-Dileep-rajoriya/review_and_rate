@@ -19,6 +19,7 @@ app.use(express.json());
 
 // Enable CORS
 const allowedOrigins = process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : ['http://localhost:5173'];
+console.log("allowedOrigins", allowedOrigins);
 app.use(cors({
   origin: function (origin, callback) {
     // allow requests with no origin (like mobile apps or curl requests)
